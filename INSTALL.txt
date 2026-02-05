@@ -9,25 +9,25 @@ sudo apt-get install build-essential pkg-config libgtk-3-dev
 
 2. Download the Program: Download the source code of SleepAssistify from the official repository or the provided location. Extract it if it is in a compressed format.
 
-3. Compile the Program: To compile the source code, open a terminal in the directory containing the sleepassistify.c file. Run the following command:
+3. Compile the Program: To compile the source code, open a terminal in the directory containing the SleepAssistify.c file. Run the following command:
 
-gcc sleepassistify.c -o sleepassistify $(pkg-config --cflags --libs gtk+-3.0)
+gcc SleepAssistify.c -o SleepAssistify $(pkg-config --cflags --libs gtk+-3.0)
 
 This will generate an executable binary file named sleepassistify.
 
 4. Run the Program: After compiling and installing the program, you can run it by specifying the correct path to the binary file. For example, if the binary is placed in a directory like /usr/local/bin, you can run the program by simply typing:
 
-sleepassistify
+SleepAssistify
 
 However, if you place the binary elsewhere, make sure to specify the full or relative path to the executable. For instance:
 
-/path/to/sleepassistify
+/path/to/SleepAssistify
 
 If you want to run the program from anywhere without specifying the path each time, you can add its directory to the system's $PATH variable.
 
 5. Uninstall the Program: To uninstall the program, you can simply remove the binary file from its installation directory. For example, if the program was installed to /usr/local/bin, you can run:
 
-sudo rm /usr/local/bin/sleepassistify
+sudo rm /usr/local/bin/SleepAssistify
 
 If you installed it to another directory, adjust the path accordingly.
 
